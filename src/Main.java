@@ -1,14 +1,14 @@
- public class Main {
+public class Main {
     public static void main(String[] args) {
 
-        int amaunt = 20000;//стоимость билета
-        int i1 = 20;// рублей для одной бонусной мили
-        int bonus = amaunt / i1;
-        {
-
-            System.out.println(amaunt/i1);
+        int amount = 20000;//стоимость билета
+        int bonusprice = 20;// рублей для одной бонусной мили
+        int bonus = amount / bonusprice;
 
 
-        }
+        System.out.println(bonus);
+
+
     }
 }
+
